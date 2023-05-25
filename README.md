@@ -59,4 +59,5 @@ With this open-sourced analyzer, we have performed a comprehensive analysis on t
 If you find this repository useful to you, please cite our papers:
 
 [1] Xing, X., Papanastasiou, G., Walsh, S., & Yang, G. (2023). Less is More: Unsupervised Mask-guided Annotated CT Image Synthesis with Minimum Manual Segmentations. IEEE Transactions on Medical Imaging.
+
 [2] Xing, X., Nan, Y., Felder, F., Walsh, S., & Yang, G. (2023). The Beauty or the Beast: Which Aspect of Synthetic Medical Images Deserves Our Focus?. arXiv preprint arXiv:2305.09789.
