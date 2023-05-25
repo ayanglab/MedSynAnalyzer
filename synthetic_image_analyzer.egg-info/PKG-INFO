@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: synthetic-image-analyzer
+Version: 1.0.0
+Summary: A comprehensive analysis tool that offers a wide range of functionalities for synthetic image quality analysis. It includes features for feature extraction, quality evaluation, fidelity computation, and more. With its comprehensive set of tools, this package empowers users to perform in-depth analysis and assessment of synthetic images, enabling better understanding and evaluation of their quality.
+Author: Xiaodan Xing

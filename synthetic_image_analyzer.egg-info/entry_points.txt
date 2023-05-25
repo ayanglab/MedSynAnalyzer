@@ -1,0 +1,2 @@
+[console_scripts]
+synthetic_image_analyzer = synthetic_image_analyzer.main:main
