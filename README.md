@@ -25,9 +25,7 @@ Privacy preservation score is computed for each synthetic image based on its ass
 The fidelity is defined by the ratio of realistic synthetic images (synthetic images that falls to the real and copy set) to all synthetic images. 
 
 
-**Variety.**
-
-To measure the variety, we introduced the JPEG file size of the mean image. The lossless JPEG file size of the group average image was used to measure the inner class variety in the ImageNet dataset. This approach was justified by the authors who presumed that a dataset containing diverse images would result in a blurrier average image, thus reducing the lossless JPEG file size of the mean image. To ensure that the variety score is positively correlated with the true variety, we normalized it to $[0,1]$ across all groups of synthetic images, and then subtracted it from 1 to obtain the final variety score. 
+**Variety.** To measure the variety, we introduced the JPEG file size of the mean image. The lossless JPEG file size of the group average image was used to measure the inner class variety in the ImageNet dataset. This approach was justified by the authors who presumed that a dataset containing diverse images would result in a blurrier average image, thus reducing the lossless JPEG file size of the mean image. To ensure that the variety score is positively correlated with the true variety, we normalized it to $[0,1]$ across all groups of synthetic images, and then subtracted it from 1 to obtain the final variety score. 
 
 It is worth noting that variety can also be quantified by the standard deviation (STD) of the latent features, which is also implemented in our package. 
 
