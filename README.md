@@ -1,4 +1,5 @@
-# synthetic_image_analyzer
+#  MedSynAnalyzer
+
 This repository provides a comprehensive set of tools for analyzing the quality of synthetic images. It covers three important aspects: fidelity, variety, and privacy. The analysis is based on features extracted from both 2D and 3D images, making it applicable to a wide range of image types. Pre-trained feature extractors will be made available once they are fully trained.
 
 The features extracted can be either discrete features obtained from VQVAE or continuous features from other pre-trained models. For discrete features, we utilize the Hamming distance to measure feature similarity, and for continuous features, we use Euclidean distance. 
@@ -48,8 +49,14 @@ The package also provides an API for programmatic access to its functionality. A
 
 Multi-scale multi-task Fréchet Inception Distance (MM-FID) and multi-scale multi-task Standard Deviation (MM-STD) incorporate different feature extractors under different resolutions to extract more representative features.
 
+## Applications 
+With this open-sourced analyzer, we have performed a comprehensive analysis on the quality of synthetic images for our MICCAI 2023 paper. Through intensive experiments in over 100k chest X-ray images, we drew three major conclusions which we can envision that have broad applicability in medical image synthesis and analysis.
+
+![teaser](https://github.com/ayanglab/MedSynAnalyzer/assets/30890745/fe8f4343-6568-40d6-931d-d91681586fb7)
+
+
 ## Citation
-If you find this repository useful to you, please cite our paper:
+If you find this repository useful to you, please cite our papers:
 
-Xing, X., Papanastasiou, G., Walsh, S., & Yang, G. (2023). Less is More: Unsupervised Mask-guided Annotated CT Image Synthesis with Minimum Manual Segmentations. IEEE Transactions on Medical Imaging.
-
+[1] Xing, X., Papanastasiou, G., Walsh, S., & Yang, G. (2023). Less is More: Unsupervised Mask-guided Annotated CT Image Synthesis with Minimum Manual Segmentations. IEEE Transactions on Medical Imaging.
+[2] Xing, X., Nan, Y., Felder, F., Walsh, S., & Yang, G. (2023). The Beauty or the Beast: Which Aspect of Synthetic Medical Images Deserves Our Focus?. arXiv preprint arXiv:2305.09789.
