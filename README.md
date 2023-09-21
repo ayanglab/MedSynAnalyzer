@@ -11,7 +11,8 @@ This analyzer evaluates synthetic images from three perspectives: fidelity, vari
 To assess fidelity, we consider the similarity between real and synthetic images. For each real image, we identify its k nearest neighbors based on image similarity. We then categorize synthetic images into three sets:
 
 
-![function](https://github.com/XiaodanXing/synthetic_image_analyzer/assets/30890745/eed19acb-1cf7-40d2-a10c-b70ecb46d113)
+![1695287630053](https://github.com/ayanglab/MedSynAnalyzer/assets/30890745/60ed90a1-a90f-44f1-b445-14a310e76063)
+
 
 
 - Copy set: Contains synthetic images that closely resemble a specific real image. A synthetic image belongs to this set if it is closer to the real image than any other real images.
