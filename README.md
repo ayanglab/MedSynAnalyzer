@@ -44,6 +44,7 @@ To perform image quality analysis on synthetic images, use the analyze command:
 synthetic_image_analyzer --data_dir ./synthetic_images --ref_dir ./real_images --output_dir ./results --resolution 512 --num_channels 3
 ```
 
+### API Use for MM_FID and MM_STD:
 The package also provides an API for programmatic access to its functionality. An example can be found in ![demo.py](./demo.py), which analyzed the ![MM-FID and MM-STD](https://ieeexplore.ieee.org/abstract/document/10077525) proposed in our TMI submission. 
 
 Multi-scale multi-task Fréchet Inception Distance (MM-FID) and multi-scale multi-task Standard Deviation (MM-STD) incorporate different feature extractors under different resolutions to extract more representative features.
